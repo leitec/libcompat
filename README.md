@@ -8,4 +8,5 @@ With the exception of `snprintf` (which is not mine) consider this public domain
 - `size_t`
 - `__time()` relative to UNIX epoch
 - `strdup`
+- `strcasecmp`
 - `snprintf` (Mark Martinec's)
