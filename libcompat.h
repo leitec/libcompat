@@ -10,6 +10,9 @@
 #include <stdlib.h>
 #include <stdio.h>
 #include <string.h>
+#include <ctype.h>
+
+#include "snprintf.h"
 
 /*
  * We use C99 types to help out portability,
@@ -36,5 +39,6 @@ time_t __time(time_t *);
  * CWPro1 needs this
  */
 char *strdup(const char *);
+int strcasecmp(const char *, const char *);
 
 #endif
